@@ -1,0 +1,9 @@
+ .container-member{
+    max-width: 80%;
+    margin: auto;
+ }
+
+ .member_team{
+    display: flex;
+    flex-wrap: wrap;
+ }
