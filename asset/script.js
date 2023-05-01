@@ -52,9 +52,9 @@ for (let key of array) {
 	// key = è una delle chiavi di arrTeam
 	console.log(key);
     eleTeam.innerHTML += 
-    `<div class= "member_team c-12 col-lg-3"> 
-        <div class= "text-center bg-light">${key.memberPic}</div> 
+    `<div class= "member_team c-12 col-lg-4 py-4"> 
+        <div class= "text-center pb-4" style="background-color: white;">${key.memberPic}</div> 
         <div class= "name">${key.memberName}</div> 
-        <div class= "fw-bold">${key.memberRole}</div> 
+        <div>${key.memberRole}</div> 
     </div>`;
 }
