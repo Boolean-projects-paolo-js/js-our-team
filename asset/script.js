@@ -50,7 +50,7 @@ const array = [
 ];
 
 for (let key of array) {
-	// key = è una delle chiavi di arrTeam
+	// key = è una delle chiavi di array
 	console.log(key);
     eleTeam.innerHTML += 
     `<div class= "member_team c-12 col-lg-4 py-4"> 
