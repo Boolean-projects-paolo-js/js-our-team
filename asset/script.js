@@ -13,7 +13,8 @@ BONUS 2:
 Organizzare i singoli membri in card/schede (se non avete idee prendete spunto dallo screenshot)
 */
 
-const eleTeam = document.querySelector(".member_team")
+const eleTeam = document.querySelector(".member_team");
+console.log('${key.memberName} - ${key.memeberRole} - ${key.memberPic}');
 
 const array = [
     {
@@ -53,8 +54,8 @@ for (let key of array) {
 	console.log(key);
     eleTeam.innerHTML += 
     `<div class= "member_team c-12 col-lg-4 py-4"> 
-        <div class= "text-center pb-4" style="background-color: white;">${key.memberPic}</div> 
+        <div class= "pic text-center pb-4" style="background-color: white;">${key.memberPic}</div> 
         <div class= "name">${key.memberName}</div> 
-        <div>${key.memberRole}</div> 
+        <div class= "role">${key.memberRole}</div> 
     </div>`;
 }
